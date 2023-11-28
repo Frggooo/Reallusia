@@ -1,0 +1,290 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Flicker";
+  src: url("/fonts/Flicker-Distorter50percent.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100%;
+}
+
+.header_container {
+  font-size: 30px;
+
+  color: rgb(255, 255, 255);
+  align-items: center;
+  margin: 0;
+  
+}
+
+
+.realussion {
+  font-family: Flicker;
+  position: relative;
+  padding-left: 100px;
+  top:10px;
+  margin: 0px;
+
+}
+.logo {
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+.osnova {
+  font-size: 50px;
+  font-family: Flicker;
+  font-style: Distorter 50 percent;
+top: 30;
+}
+
+
+.blok1 {
+  font-size: 150px;
+  font-family: Flicker, distorter50percent;
+  color:#000;
+  margin: 0px;
+  padding-top: 50px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.podlo {
+ width: 870px;
+ height: 300px;
+ background-color: #6000B9;
+ position: absolute;
+ top: 190px;
+ left: 50px;
+
+}
+
+.text1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: aliceblue;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+
+#fotochki {
+  position: absolute;
+  display: grid;
+  
+left: 350px;
+  background-image: radial-gradient(circle 4px at center, #6e0a2f calc(50% + 1px));
+  background-size: 50px 50px;
+  top: 550px;
+}
+.carousel__content--wrapper {
+  display: none;
+}
+.carousel:has(input#radio0:checked) .carousel__content--wrapper:nth-child(1) {
+  display: contents;
+}
+.carousel:has(input#radio1:checked) .carousel__content--wrapper:nth-child(2) {
+  display: contents;
+}
+.carousel:has(input#radio2:checked) .carousel__content--wrapper:nth-child(3) {
+  display: contents;
+}
+.carousel__content {
+  display: grid;
+  grid-template-areas: 'p img n';
+  grid-template-columns: auto 70vmin auto;
+  place-items: center;
+}
+.carousel__nav--prev {
+
+  display: inline-block;
+	border: 80px solid transparent; 
+	border-right: 80px solid rgb(76, 0, 255);
+  margin-right: 350%;
+
+}
+
+.carousel__nav--next {
+
+	display: inline-block;
+	border: 80px solid transparent; 
+	border-left: 100px solid rgb(0, 255, 255);
+  margin-right: 100%;
+
+}
+.carousel__nav:active {
+  background: color-mix(in hsl, #bde0fe, #000 20%);
+  transform: translate(60px, 60);
+  
+}
+.carousel__nav--prev {
+  grid-area: p;
+}
+.carousel__nav--next {
+  grid-area: n;
+}
+.carousel--img {
+  grid-area: img;
+  aspect-ratio: 0,4;
+  border-radius: 0px;
+  overflow: hidden;
+  margin-right: 90%;
+}
+.carousel--img img {
+  display: block;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+
+}
+.carousel__pagination {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-left: 120px;
+
+}
+.carousel__pagination input {
+  appearance: none;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: rgb(0, 255, 200);
+  border: 4px solid #6000B9;
+  border-radius:0%;
+  
+
+}
+.carousel__pagination input:checked {
+  background: #6000B9;
+  border-color: color-mix(in hsl, #6000B9,);
+ 
+}
+
+.chto1 {
+  font-size: 100px;
+  font-family: Flicker;
+  font-style: Distorter50persent;
+  color:#000000;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 50px;
+  position: absolute;
+}  
+
+.piy1 {
+  width: 450px;
+  height: 150px;
+  background-color: rgb(0, 255, 255);
+  position: absolute;
+  top: 950px;
+  left: 50px;
+  opacity: .6;
+}
+
+.piy1-1 {
+  width: 550px;
+  height: 300px;
+  background-color: rgb(0, 255, 255);
+  position: absolute;
+  top: 1050px;
+  left: 680px;
+  
+  
+}
+
+.chto2 {
+  font-size: 34px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#000000;
+  margin: 0px;
+  padding-top: 15px;
+  padding-left: 50px;
+  position: absolute;
+  
+}
+
+.oao {
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+  top: 1100px;
+  right: 220px;
+}
+
+.people {
+
+  width: 1440px;
+  height: 450px;
+  background-color: rgb(97, 0, 253);
+  position: absolute;
+  top: 1500px;
+}
+
+.hall {
+  width: 1440px;
+  height: 450px;
+  mix-blend-mode: lighten;
+  opacity: .3;
+}
+
+.personal {
+  font-size: 200px;
+  font-family: Flicker;
+  position: absolute;
+  bottom: 170px;
+  left: 90px;
+}
+
+.iop {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 190px;
+}
+
+#ludi {
+  position: relative;
+  bottom: 435px;
+  left: 150px;
+}
+
+.ludi4 {
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  left: 40px;
+
+}
+
+.ludi3 {
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  left: 400px;
+
+}
+.ludi2 {
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  left: 760px;
+
+}
