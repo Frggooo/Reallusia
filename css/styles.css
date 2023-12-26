@@ -39,6 +39,7 @@
 .realussion {
   font-family: Flicker;
   position: relative;
+  font-size: 70px;
   padding-left: 100px;
   top:10px;
   margin: 0px;
@@ -47,6 +48,8 @@
 .logo {
   position: absolute;
   padding-bottom: 10px;
+  transition: 1s;
+
 }
 
 .osnova {
@@ -62,7 +65,7 @@ top: 30;
   font-family: Flicker, distorter50percent;
   color:#000;
   margin: 0px;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 20px;
   position: absolute;
 }
@@ -250,7 +253,7 @@ left: 350px;
   font-size: 200px;
   font-family: Flicker;
   position: absolute;
-  bottom: 170px;
+  bottom: 150px;
   left: 90px;
 }
 
@@ -265,7 +268,7 @@ left: 350px;
 
 #ludi {
   position: relative;
-  bottom: 435px;
+  bottom: 460px;
   left: 150px;
 }
 
@@ -340,7 +343,7 @@ left: 350px;
 .footer {
   position:relative;
   width: 1440px;
-  height: 250px;
+  height: 330px;
   background-color: #000;
   top: 2330px;
 }
